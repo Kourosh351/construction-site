@@ -1,0 +1,54 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+
+
+
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+h5{
+    display: flex;
+    justify-content: center;
+    color: #ffae00;
+}
+.one{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 20px;
+    .img2{
+    height: 225px;
+    border-radius: 15px;
+    }
+    .img4{
+        height: 225px;
+        border-radius: 15px;
+    }
+    .img1{
+        border-radius: 15px;
+        height: 460px;
+        width: 217;
+
+    }
+}
+.two{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 365px;
+    right: 300px;
+    .img3{
+        height: 225px;
+        border-radius: 15px;
+    }
+    .img5{
+        height: 225px;
+        border-radius: 15px;
+    }
+}
